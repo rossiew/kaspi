@@ -1,0 +1,39 @@
+  
+  
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between,;
+    align-items: center;
+    background-color: white;
+}
+
+.all_headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    position: sticky;
+}
+
+
+
+
+
+.cleen  {
+    border-radius: 15px;
+    padding: 40px 70px;
+    background-color: white;
+}
+
+.bussen  {
+    border-radius: 15px;
+    padding: 30px 30px;
+    background-color: white;
+}
+.gaid{
+    border-radius: 15px;
+    padding: 20px 40px;
+    background-color: white;
+    margin-left: 25%;
+}

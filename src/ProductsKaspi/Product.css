@@ -1,0 +1,44 @@
+.first img{
+margin-left: 35%;
+}
+.first button{
+    border-radius: 10px;
+    background-color: rgb(36, 142, 212);
+    padding: 8px 8px;
+    color: white;
+}
+.first{
+    padding: 10px 10px;
+}
+
+
+
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 28px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: background-color 0.4s;
+    text-align: center;
+    align-items: start;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 10 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

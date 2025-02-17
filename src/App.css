@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    margin: 0;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+
+
+
+
+.icon-space {
+    margin-right: 10px;
+}
+
+.bank h4,
+.bank h3,
+.bank p {
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+.carts_w {
+    height: 250px;
+    width: 440px;
+}
+
+.items-start.clicked {
+    color: red; 
+  }
+
+
+
+.form-login{
+    text-align: center;
+    padding: 50px;
+}
+.form-registr{
+  text-align: center;
+    padding: 50px;
+}
+
+
+/* login */
+.emails{
+    margin-left: 38%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 15px;
+    width: 330px;
+    border: 2px solid rgb(218, 110, 110)
+}
+.btns{
+    margin-left: 39.2%;
+}
+
+#email{
+    background-color: white;
+
+}
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    padding: 0;
+    border-radius: 7px;
+
+    background: rgb(241,70,53);
+    position: relative;
+  }
+
+  .btn-5:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow: none;
+  }
+  .btn-5:before,
+  .btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    transition: 400ms ease all;
+  }
+  .btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+
+
+  /* register button */
+
+  .btn-6 {
+    width: 170px;
+    height: 40px;
+    line-height: 42px;
+    color: rgb(241,70,53);
+    padding: 0;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  .btn-6:hover {
+    color: #ffffff;
+    background: transparent;
+    background-color:rgb(241,70,53) ;
+    box-shadow: none;
+  }
+  .btn-6:before,
+  .btn-6:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    height: 2px;
+    width: 0;
+    background: #eeb0b0;
+    transition: 400ms ease all;
+  }
+  .btn-6:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  .btn-6:hover:before,
+  .btn-6:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+
+.logout{
+  color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: color 0.3s ease;
+    font-family: sans-serif;
+}
+.logout:hover{
+  color: rgb(222, 78, 78);
+
+}
+.logg {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: color 0.3s ease;
+    font-family: sans-serif;
+  }
+  
+  .logg:hover {
+    color: rgb(222, 78, 78);
+  }
+  
+  .regg {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: color 0.3s ease;
+    font-family: sans-serif;
+
+  }
+  
+  .regg:hover {
+    color: rgb(222, 78, 78);
+  }
+  .emails-register{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 15px;
+    width: 330px;
+    border: 2px solid rgb(218, 110, 110)
+  }

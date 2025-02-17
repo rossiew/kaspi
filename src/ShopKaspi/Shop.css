@@ -1,0 +1,111 @@
+.category-card {
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+
+
+}
+
+.category-card h1 {
+    margin-bottom: 20px;
+}
+
+
+
+ul {
+    list-style: none;
+
+
+    padding: 0;
+    margin: 0;
+}
+
+li {
+
+
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+li div {
+    padding: 10px;
+}
+
+li div img {
+    border-radius: 10px;
+
+    width: 270px;
+    height: 170px;
+}
+
+li div p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.pagination {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* Shop.css */
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.pagination-icon {
+color: rgb(82, 83, 83);
+    border-radius: 50%;
+    /* Делает круг */
+    background-color: #cecdcd;
+    /* Цвет круга */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.pagination-icon:hover {
+    background-color: #e9e7e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,53 +7,30 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node.js
+node_modules/
+.env
+
+# React
+build/
+.cache/
+coverage/
+dist/
+dist-ssr/
 *.local
 
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
-.DS_Store                                                                                       
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Visual Studio files
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-
-
-node_modules
-build
-.cache
-public
-.env
-.DS_Store
-*.log
-
-
-
-# Node.js
-node_modules/
-.env
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# React
-build/
-.DS_Store
-.vscode/
-.idea/
-
-# Логи и кеши
-logs/
-*.log
-.cache/
-coverage/
-
-# Системные файлы
-Thumbs.db
-.DS_Store
